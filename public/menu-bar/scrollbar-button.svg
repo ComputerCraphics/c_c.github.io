@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Slider Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main-Projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-815.000000, -31.000000)">
+        <g id="Start" transform="translate(26.000000, 27.000000)">
+            <g id="C_Ctart_panel-2-Copy" transform="translate(1.000000, 0.000000)">
+                <g id="Slider-Icon" transform="translate(788.000000, 4.000000)">
+                    <polygon id="Fill-36" fill="#949491" points="1.419 18.285 17.127 18.285 17.127 1.917 1.419 1.917"></polygon>
+                    <polygon id="Fill-37" fill="#B7B9B5" points="0.419 19.223 2.419 19.223 2.419 0.667 0.419 0.667"></polygon>
+                    <polygon id="Fill-38" fill="#6F7571" points="16.127 19.223 18.127 19.223 18.127 0.667 16.127 0.667"></polygon>
+                    <polyline id="Fill-39" fill="#6F7571" points="18.085 17.285 18.085 19.285 0.46 19.285 2.377 17.285 18.085 17.285"></polyline>
+                    <polyline id="Fill-40" fill="#B7B9B5" points="0.46 2.604 0.46 0.604 18.085 0.604 16.169 2.604 0.46 2.604"></polyline>
+                    <polygon id="Path" stroke="#000105" stroke-linecap="round" points="6.581 12.967 12.246 12.967 12.246 7.297 6.581 7.297"></polygon>
+                    <polygon id="Fill-67" fill="#000105" points="6.581 9.945 12.246 9.945 12.246 7.297 6.581 7.297"></polygon>
+                    <polygon id="Stroke-68" stroke="#000105" points="6.581 9.945 12.246 9.945 12.246 7.297 6.581 7.297"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

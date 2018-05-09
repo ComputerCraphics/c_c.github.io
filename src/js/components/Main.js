@@ -3,6 +3,7 @@
 import React, { Component, PropTypes } from 'react';
 
 import Project from './Project';
+import Menu from './Menu';
 
 import { multiply, switcherHover } from '../vanila.js';
 
@@ -178,6 +179,7 @@ class Main extends Component {
             <div className="next-btn" onClick={::this.projectSwitcher.bind(this, 'next')}><img src="./public/icons/arrow-bottom.svg" alt="" /></div>
           </div>
         </div>
+        <Menu projectsData={this.props.data}></Menu>
       </div>
     );
   }

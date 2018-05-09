@@ -11,6 +11,17 @@ body {
   // -webkit-overflow-scrolling: touch;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
 .running-lines {
   display: none;
 
@@ -45,7 +56,8 @@ body {
 
 .page-wrapper {
   @include respond-to(medium) {
-    margin: $grid*2 $padding-large;
+    // margin: $grid*2 $padding-large;
+    margin: $grid*2 $padding-large 0 $padding-large;
   }
   .header {
     margin: $grid;
@@ -154,6 +166,7 @@ body {
     }
   }
   .content {
+    // position: relative;
     @include respond-to(medium) {
       display: flex;
 
@@ -294,7 +307,7 @@ body {
             right: 25px;
 
             width: 50%;
-            height: calc(100% - 50px);
+            height: calc(100% - 75px);
             max-height: none;
           }
           &.centered {
@@ -394,7 +407,7 @@ body {
       display: inline-block;
       // transform: translate3d(0, 0, 0);
 
-      animation: marqueeToRight1 30s linear infinite;
+      // animation: marqueeToRight1 30s linear infinite;
 
       // perspective: 1000;
       // backface-visibility: hidden;
@@ -404,7 +417,7 @@ body {
       display: inline-block;
       // transform: translate3d(0, 0, 0);
 
-      animation: marqueeToRight2 30s linear infinite;
+      // animation: marqueeToRight2 30s linear infinite;
 
       // perspective: 1000;
       // backface-visibility: hidden;
@@ -415,7 +428,7 @@ body {
       display: inline-block;
       // transform: translate3d(0, 0, 0);
 
-      animation: marqueeToLeft1 30s linear infinite;
+      // animation: marqueeToLeft1 30s linear infinite;
 
       // perspective: 1000;
       // backface-visibility: hidden;
@@ -425,7 +438,7 @@ body {
       display: inline-block;
       // transform: translate3d(0, 0, 0);
 
-      animation: marqueeToLeft2 30s linear infinite;
+      // animation: marqueeToLeft2 30s linear infinite;
 
       // perspective: 1000;
       // backface-visibility: hidden;
@@ -492,14 +505,14 @@ body {
           left: 9.5%;
 
           transform: translate3d(0, 0, 0);
-          animation: rotationRight 20s linear infinite;
+          // animation: rotationRight 20s linear infinite;
 
           perspective: 1000;
           backface-visibility: hidden;
         }
         &.outer {
           transform: translate3d(0, 0, 0);
-          animation: rotationLeft 20s linear infinite;
+          // animation: rotationLeft 20s linear infinite;
 
           perspective: 1000;
           backface-visibility: hidden;

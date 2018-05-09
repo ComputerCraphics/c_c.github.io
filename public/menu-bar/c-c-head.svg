@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Head</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main-Projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-105.000000, -601.000000)">
+        <g id="Start" transform="translate(26.000000, 27.000000)" fill="#1B1A19">
+            <g id="Head" transform="translate(79.000000, 574.000000)">
+                <path d="M3.468,0.076 L21.293,0.076 L17.96,17.314 L0.136,17.314 L3.468,0.076 Z M16.316,7.062 L16.824,4.43 L14.1,4.43 L13.592,7.062 L16.316,7.062 Z M15.58,12.781 L4.352,12.781 L4.906,10.15 L16.083,10.15 L15.58,12.781 Z M5.82,4.43 L8.544,4.43 L8.037,7.062 L5.313,7.062 L5.82,4.43 Z" id="Dude"></path>
+            </g>
+        </g>
+    </g>
+</svg>
