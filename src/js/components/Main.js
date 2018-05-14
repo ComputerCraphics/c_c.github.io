@@ -20,7 +20,7 @@ class Main extends Component {
     switcherHover();
 
     window.addEventListener('popstate', function() {
-      const availableUrls = this.props.data.map(project => project.url);
+      const availableUrls = this.props.projects.map(project => project.url);
       const currentUrl = window.location.search.substring(1);
 
       this.setProject(availableUrls, currentUrl);
@@ -28,7 +28,7 @@ class Main extends Component {
   }
 
   componentWillMount() {
-    const availableUrls = this.props.data.map(project => project.url);
+    const availableUrls = this.props.projects.map(project => project.url);
     const currentUrl = window.location.search.substring(1);
 
     if (availableUrls.indexOf(currentUrl) > -1) {
@@ -51,7 +51,7 @@ class Main extends Component {
 
   projectSwitcher(direction) {
     let projectID = this.state.projectID;
-    let data = this.props.data;
+    let data = this.props.projects;
     let maxID = data.length - 1;
 
     if (direction === 'next') {
@@ -145,7 +145,7 @@ class Main extends Component {
               <div className="next-btn" onClick={::this.projectSwitcher.bind(this, 'next')}><img src="./public/icons/arrow-right.svg" alt="" /></div>
             </div>
           </div>
-          <Project project={this.props.data[this.state.projectID]}/>
+          <Project project={this.props.projects[this.state.projectID]}/>
         </div>
         <div className="navbar mobile">
           <img src="./public/icons/menu-top-bar-mobile.png" alt="" />
@@ -179,7 +179,7 @@ class Main extends Component {
             <div className="next-btn" onClick={::this.projectSwitcher.bind(this, 'next')}><img src="./public/icons/arrow-bottom.svg" alt="" /></div>
           </div>
         </div>
-        <Menu projectsData={this.props.data}></Menu>
+        <Menu projectsData={this.props.projects} shopItemsData={this.props.shopItems}></Menu>
       </div>
     );
   }

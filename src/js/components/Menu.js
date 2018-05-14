@@ -6,8 +6,9 @@ class Menu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuOpened: true,
-      menuType: ''
+      menuOpened: false,
+      menuType: '',
+      menuData: []
     };
   }
 
@@ -21,32 +22,36 @@ class Menu extends Component {
 
   toggleMenu(type) {
     let menuTypeState = this.state.menuType;
-    if (type === menuTypeState) {
-      this.setState({
-        menuOpened: false,
-        menuType: ''
-      })
-    } else if (type !== menuTypeState && menuTypeState) {
+    if (type === 'projects' && type !== menuTypeState) {
       this.setState({
         menuOpened: true,
-        menuType: type
-      });
-    } else {
-      this.setState(prevState => ({
-        menuOpened: !prevState.menuOpened,
-        menuType: type
-      }));
+        menuType: 'projects',
+        menuData: this.props.projectsData
+      })
+    } else if (type === 'shopItems' && type !== menuTypeState) {
+      this.setState({
+        menuOpened: true,
+        menuType: 'shopItems',
+        menuData: this.props.shopItemsData
+      })
+    } else if (type === menuTypeState) {
+      this.setState({
+        menuOpened: false,
+        menuType: '',
+        menuData: []
+      })
     }
   }
 
   render() {
+    let imgsIconsArr = Array.from(Array(24).keys());
     return (
       <div>
         <div className="menu-bar">
           <div className="menu-bar-actions">
             <div className="actions-left">
               <div className="menu-bar-start" onClick={::this.toggleMenu.bind(this, 'projects')}><img src='./public/menu-bar/c-c-start.svg' /></div>
-              <div className="menu-shop-start" onClick={::this.toggleMenu.bind(this, 'shop')}><img src='./public/menu-bar/c-c-head.svg' /></div>
+              <div className="menu-shop-start" onClick={::this.toggleMenu.bind(this, 'shopItems')}><img src='./public/menu-bar/c-c-head.svg' /></div>
             </div>
             <div className="actions-right">
               <div className="actions-right-block">
@@ -138,7 +143,23 @@ class Menu extends Component {
                     </ul>
                   </div>
                   <div className="menu-popup-actions">
-
+                    <div className="actions-logo"><img src="./public/menu-bar/c-c-actions-logo.svg" alt="" /></div>
+                    <div className="update-date">Last Upd 4/20/2018</div>
+                    <div className="actions-icons">
+                      <div className="left-col"><img src="./public/menu-bar/actions-icons-left-col.svg" alt="" /></div>
+                      <div className="center-col">
+                        { imgsIconsArr.map((item, key) => {
+                            return (
+                              <div className="mini-action" key={key}>
+                                <img src={`./public/menu-bar/actions/${item+1}.svg`} alt="" />
+                              </div>
+                            )
+                          }
+                        )}
+                      </div>
+                      <div className="right-col"><img src="./public/menu-bar/actions-icons-right-col.svg" alt="" /></div>
+                    </div>
+                    <div className="random-pic"><img src="./public/menu-bar/random-pic.png" alt="" /></div>
                   </div>
                 </div>
             }
