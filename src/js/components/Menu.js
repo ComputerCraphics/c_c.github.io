@@ -68,78 +68,15 @@ class Menu extends Component {
                 <div className="menu-popup-content">
                   <div className="menu-popup-items">
                     <ul className="items-list">
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
-                      <li className="item">
-                        <div className="item-image"><img src="" /></div>
-                        <span>Safety Shit for Bird App</span>
-                      </li>
+                      { this.state.menuData.map((item, key) => {
+                          return (
+                            <li className="item" key={key}>
+                              <div className="item-image"><img src={item.menu_image} /></div>
+                                { item.price ? <span>{item.menu_description} – {item.price} – <a href={item.link} target="_blank">Buy</a></span> : <span>{item.menu_description}</span>}
+                            </li>
+                          )
+                        })
+                      }
                     </ul>
                   </div>
                   <div className="menu-popup-actions">

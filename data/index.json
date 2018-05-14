@@ -8,6 +8,8 @@
       "project_link": "",
       "link_name": "",
       "tags": "",
+      "menu_image": "",
+      "menu_description": "",
       "assets": [
         "<iframe src='https://player.vimeo.com/video/250342379?byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
       ]
@@ -20,6 +22,8 @@
       "project_link": "",
       "link_name": "",
       "tags": "#tag one, #tag two, #tag three.",
+      "menu_image": "",
+      "menu_description": "",
       "assets": [
         "/public/images/project-poster-1.png"
       ]
@@ -32,6 +36,8 @@
       "project_link": "https://techcrunch.com/2017/10/27/how-video-game-tech-makes-neural-networks-possible/",
       "link_name": "Article itself",
       "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
+      "menu_image": "",
+      "menu_description": "",
       "assets": [
         "/public/gifs/game_tech/game_tech_1.gif",
         "/public/gifs/game_tech/game_tech_2.gif",
@@ -48,6 +54,8 @@
       "project_link": "",
       "link_name": "",
       "tags": "#google.",
+      "menu_image": "",
+      "menu_description": "",
       "assets": [
         "/public/gifs/google_proj/google_proj.gif"
       ]
@@ -60,6 +68,8 @@
       "project_link": "https://techcrunch.com/2017/07/21/why-the-future-of-deep-learning-depends-on-finding-good-data/",
       "link_name": "Article itself",
       "tags": "#computer vision, #machine learning, #neural networks, #computer vision, #datascience, #techrunch.",
+      "menu_image": "",
+      "menu_description": "",
       "assets": [
         "/public/gifs/techrunch_gumguminc/techrunch_gumguminc_1.gif",
         "/public/gifs/techrunch_gumguminc/techrunch_gumguminc_2.gif",
@@ -76,6 +86,8 @@
       "project_link": "",
       "link_name": "",
       "tags": "#computer vision, #machine learning, #neural networks, #datascience, #techrunch.",
+      "menu_image": "",
+      "menu_description": "",
       "assets": [
         "/public/gifs/techrunch_gumguminc_2/techrunch_gumguminc_1.gif",
         "/public/gifs/techrunch_gumguminc_2/techrunch_gumguminc_2.gif",
@@ -91,6 +103,8 @@
       "project_link": "",
       "link_name": "",
       "tags": "#computer vision, #machine learning, #neural networks, #datascience, #techrunch, #artificial intelligence.",
+      "menu_image": "",
+      "menu_description": "",
       "assets": [
         "/public/gifs/microchips_macrodips/microchips_macrodips.gif"
       ]
@@ -98,8 +112,62 @@
   ],
   "shop_items": [
     {
-      "name": "T-Shirt C_C",
-      "picture": "/public/shop_items/sample.png",
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
+      "price": "40$",
+      "link": ""
+    },
+    {
+      "menu_image": "/public/shop_items/sample.png",
+      "menu_description": "T-Shirt C_C",
       "price": "40$",
       "link": ""
     }
