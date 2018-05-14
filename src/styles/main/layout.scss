@@ -54,6 +54,12 @@ ul {
   }
 }
 
+.main {
+  @include respond-to(medium) {
+    margin-left: $grid/2;
+  }
+}
+
 .page-wrapper {
   @include respond-to(medium) {
     // margin: $grid*2 $padding-large;
@@ -74,7 +80,7 @@ ul {
   .navbar {
     display: none;
 
-    width: 65px;
+    width: 67px;
     height: 100%;
     margin-top: $padding-large;
     margin-right: $grid/2;
@@ -84,6 +90,9 @@ ul {
 
     @include respond-to(medium) {
       display: block;
+    }
+    > img {
+      width: 100%;
     }
     &.mobile {
       position: fixed;
@@ -101,6 +110,7 @@ ul {
        > img {
         margin-top: -1px;
         margin-left: 2px;
+        width: auto;
       }
       a {
         width: 100%;

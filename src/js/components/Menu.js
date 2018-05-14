@@ -71,7 +71,9 @@ class Menu extends Component {
                       { this.state.menuData.map((item, key) => {
                           return (
                             <li className="item" key={key}>
-                              <div className="item-image"><img src={item.menu_image} /></div>
+                              <div className="item-image">
+                                { item.url ? <a href={"?"+item.url}><img src={item.menu_image} /></a> : <img src={item.menu_image} />}
+                              </div>
                                 { item.price ? <span>{item.menu_description} – {item.price} – <a href={item.link} target="_blank">Buy</a></span> : <span>{item.menu_description}</span>}
                             </li>
                           )

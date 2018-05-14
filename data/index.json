@@ -9,7 +9,7 @@
       "link_name": "",
       "tags": "",
       "menu_image": "",
-      "menu_description": "",
+      "menu_description": "homepage",
       "assets": [
         "<iframe src='https://player.vimeo.com/video/250342379?byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
       ]
@@ -23,7 +23,7 @@
       "link_name": "",
       "tags": "#tag one, #tag two, #tag three.",
       "menu_image": "",
-      "menu_description": "",
+      "menu_description": "crew",
       "assets": [
         "/public/images/project-poster-1.png"
       ]
@@ -37,7 +37,7 @@
       "link_name": "Article itself",
       "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
       "menu_image": "",
-      "menu_description": "",
+      "menu_description": "gumgum-techcrunch",
       "assets": [
         "/public/gifs/game_tech/game_tech_1.gif",
         "/public/gifs/game_tech/game_tech_2.gif",
@@ -55,7 +55,7 @@
       "link_name": "",
       "tags": "#google.",
       "menu_image": "",
-      "menu_description": "",
+      "menu_description": "Google Illustrations",
       "assets": [
         "/public/gifs/google_proj/google_proj.gif"
       ]
@@ -69,7 +69,7 @@
       "link_name": "Article itself",
       "tags": "#computer vision, #machine learning, #neural networks, #computer vision, #datascience, #techrunch.",
       "menu_image": "",
-      "menu_description": "",
+      "menu_description": "Gumguminc Techcrunch",
       "assets": [
         "/public/gifs/techrunch_gumguminc/techrunch_gumguminc_1.gif",
         "/public/gifs/techrunch_gumguminc/techrunch_gumguminc_2.gif",
@@ -87,7 +87,7 @@
       "link_name": "",
       "tags": "#computer vision, #machine learning, #neural networks, #datascience, #techrunch.",
       "menu_image": "",
-      "menu_description": "",
+      "menu_description": "Gumguminc Techcrunch 2",
       "assets": [
         "/public/gifs/techrunch_gumguminc_2/techrunch_gumguminc_1.gif",
         "/public/gifs/techrunch_gumguminc_2/techrunch_gumguminc_2.gif",
@@ -104,7 +104,7 @@
       "link_name": "",
       "tags": "#computer vision, #machine learning, #neural networks, #datascience, #techrunch, #artificial intelligence.",
       "menu_image": "",
-      "menu_description": "",
+      "menu_description": "Microchips",
       "assets": [
         "/public/gifs/microchips_macrodips/microchips_macrodips.gif"
       ]

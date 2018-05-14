@@ -5,7 +5,7 @@
   bottom: 25px;
   left: 24px;
 
-  height: 24px;
+  height: 26px;
 
   border: 1px solid white;
   border-top: none;
@@ -93,9 +93,9 @@
 .menu-popup {
   position: absolute;
   z-index: -1;
-  top: 25px;
+  top: 24px;
   right: 24px;
-  bottom: 50px;
+  bottom: 51px;
   left: 24px;
 
   overflow: hidden;
@@ -144,8 +144,10 @@
 
         &::-webkit-scrollbar-thumb {
           background: #949491;
-          box-shadow: inset 3px 3px #b7b9b5,
-          inset -3px -2px #6f7571;
+          // box-shadow: inset 3px 3px #b7b9b5,
+          // inset -3px -3px #6f7571;
+          box-shadow: inset 3px 3px rgba(183, 185, 181, 0.6),
+          inset -3px -3px rgba(111, 117, 113, 0.6);
         }
         &::-webkit-scrollbar-button:start:decrement, &::-webkit-scrollbar-button:end:increment {
           width: 20px;
@@ -164,6 +166,12 @@
             height: 240px;
 
             background: url('/public/menu-bar/project-item-blank.svg') center no-repeat $grey-dark-box-shadow;
+            a {
+              display: block;
+
+              width: 100%;
+              height: 100%;
+            }
             img {
               display: block;
 

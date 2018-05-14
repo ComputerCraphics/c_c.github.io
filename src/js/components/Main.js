@@ -107,7 +107,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main">
         <div className="header">
           <img src="./public/icons/c_c-logo.svg" alt="" onClick={::this.projectSwitcher.bind(this, 'home')}/>
         </div>
