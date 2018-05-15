@@ -92,7 +92,14 @@ class Menu extends Component {
                         { imgsIconsArr.map((item, key) => {
                             return (
                               <div className="mini-action" key={key}>
-                                <img src={`./public/menu-bar/actions/${item+1}.svg`} alt="" />
+                                { this.props.miniActionsLinks[key]
+                                    ?
+                                      <a href={this.props.miniActionsLinks[key]}>
+                                        <img src={`./public/menu-bar/actions/${item+1}.svg`} alt="" />
+                                      </a>
+                                    :
+                                      <img src={`./public/menu-bar/actions/${item+1}.svg`} alt="" />
+                                }
                               </div>
                             )
                           }
