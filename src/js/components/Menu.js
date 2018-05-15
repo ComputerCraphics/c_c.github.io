@@ -57,7 +57,7 @@ class Menu extends Component {
               <div className="actions-right-block">
                 <img src='./public/menu-bar/globe-icon.svg' />
                 <img src='./public/icons/menu-smile.svg' />
-                <span>Last Upd 4/20/2018</span>
+                <span>Last Upd {this.props.lastUpd}</span>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ class Menu extends Component {
                   </div>
                   <div className="menu-popup-actions">
                     <div className="actions-logo"><img src="./public/menu-bar/c-c-actions-logo.svg" alt="" /></div>
-                    <div className="update-date">Last Upd 4/20/2018</div>
+                    <div className="update-date">Last Upd {this.props.lastUpd}</div>
                     <div className="actions-icons">
                       <div className="left-col"><img src="./public/menu-bar/actions-icons-left-col.svg" alt="" /></div>
                       <div className="center-col">

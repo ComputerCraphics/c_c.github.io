@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = JSON.parse(response);
 
         if (mainApp) {
-          ReactDOM.render(<Main projects={data.projects} shopItems={data.shop_items}/>, mainApp);
+          ReactDOM.render(<Main projects={data.projects} shopItems={data.shop_items} lastUpd={data.last_update} />, mainApp);
         }
       }
     });
