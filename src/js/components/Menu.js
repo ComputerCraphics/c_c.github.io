@@ -69,14 +69,16 @@ class Menu extends Component {
                   <div className="menu-popup-items">
                     <ul className="items-list">
                       { this.state.menuData.map((item, key) => {
-                          return (
-                            <li className="item" key={key}>
-                              <div className="item-image">
-                                { item.url ? <a href={"?"+item.url}><img src={item.menu_image} /></a> : <img src={item.menu_image} />}
-                              </div>
-                                { item.price ? <span>{item.menu_description} – {item.price} – <a href={item.link} target="_blank">Buy</a></span> : <span>{item.menu_description}</span>}
-                            </li>
-                          )
+                          if ( item.url !== '' && item.url !== 'about') {
+                            return (
+                              <li className="item" key={key}>
+                                <div className="item-image">
+                                  { item.url ? <a href={"?"+item.url}><img src={item.menu_image} /></a> : <img src={item.menu_image} />}
+                                </div>
+                                  { item.price ? <span>{item.menu_description} – {item.price} – <a href={item.link} target="_blank">Buy</a></span> : <span>{item.menu_description}</span>}
+                              </li>
+                            )
+                          }
                         })
                       }
                     </ul>
