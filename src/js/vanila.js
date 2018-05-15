@@ -18,7 +18,7 @@ export function switcherHover() {
   const btnPopup = document.querySelector('.btn-popup');
 
   const hoverArr = [ prevBtn[0] ,nextBtn[0] ,crewBtn ,elloBtn ,pinterestBtn ,instagramBtn ,facebookBtn ];
-  const hoverArrWords = [ 'Previous project' , 'Next project' , 'Crew' , 'Ello' , 'Pinterest' , 'Instagram' , 'Facebook' ];
+  const hoverArrWords = [ 'Previous project' , 'Next project' , 'About' , 'Ello' , 'Pinterest' , 'Instagram' , 'Facebook' ];
 
   hoverArr.forEach((item, index) => {
     item.addEventListener('mouseover', (e) => {
