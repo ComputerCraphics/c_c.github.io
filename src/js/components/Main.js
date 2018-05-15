@@ -145,7 +145,7 @@ class Main extends Component {
               <div className="next-btn" onClick={::this.projectSwitcher.bind(this, 'next')}><img src="./public/icons/arrow-right.svg" alt="" /></div>
             </div>
           </div>
-          <Project project={this.props.projects[this.state.projectID]}/>
+          <Project project={this.props.projects[this.state.projectID]} projectSwitcher={::this.projectSwitcher.bind(this)} />
         </div>
         <div className="navbar mobile">
           <img src="./public/icons/menu-top-bar-mobile.png" alt="" />

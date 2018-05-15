@@ -203,6 +203,7 @@ ul {
         margin: 0 auto;
         margin-top: $grid*2;
         margin-bottom: $padding-large;
+        text-align: center;
 
         @include respond-to(medium) {
           display: none;

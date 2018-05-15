@@ -41,8 +41,8 @@ class Project extends Component {
                   </div>
                 </div>
               </div>
-              <div className="scroll-text">
-                <p>SCROLL FOR MORE</p>
+              <div className="scroll-text" onClick={::this.props.projectSwitcher.bind(this, 'next')}>
+                <p>CLICK FOR MORE</p>
                 <img src="./public/icons/arrow-long.svg" alt="" />
               </div>
               <div className="video-logo-mobile">
