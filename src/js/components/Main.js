@@ -12,7 +12,9 @@ class Main extends Component {
     super(props);
     this.state = {
       currentPath: window.location.search,
-      projectID: 0
+      projectID: 0,
+      menuPopupOpened: false,
+      menuType: 'shopItems'
     };
   }
 
@@ -105,6 +107,15 @@ class Main extends Component {
     }
   }
 
+  toggleMenuPopup(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    this.setState({
+      menuPopupOpened: true,
+      menuType: 'shopItems'
+    })
+  }
+
   render() {
     return (
       <div className="main">
@@ -130,7 +141,7 @@ class Main extends Component {
                 <img src="./public/icons/pinterest-icon.svg" alt="" />
               </span>
             </a>
-            <a target="_blank" href="https://ello.co/computer_craphics">
+            <a href="" onClick={::this.toggleMenuPopup}>
               <span className="square-social" id="ello-social">
                 <img src="./public/icons/store-icon.svg" alt="" style={{width: '100px'}} />
               </span>
@@ -164,7 +175,7 @@ class Main extends Component {
               <img src="./public/icons/pinterest-icon.svg" alt="" />
             </span>
           </a>
-          <a target="_blank" href="https://ello.co/computer_craphics">
+          <a href="" onClick={::this.toggleMenuPopup}>
             <span className="square-social">
               <img src="./public/icons/store-icon.svg" alt="" style={{width: '100px'}}/>
             </span>
@@ -179,7 +190,7 @@ class Main extends Component {
             <div className="next-btn" onClick={::this.projectSwitcher.bind(this, 'next')}><img src="./public/icons/arrow-bottom.svg" alt="" /></div>
           </div>
         </div>
-        <Menu projectsData={this.props.projects} shopItemsData={this.props.shopItems} lastUpd={this.props.lastUpd} miniActionsLinks={this.props.miniActionsLinks}></Menu>
+        <Menu projectsData={this.props.projects} shopItemsData={this.props.shopItems} lastUpd={this.props.lastUpd} miniActionsLinks={this.props.miniActionsLinks} menuType={this.state.menuType} menuOpened={this.state.menuPopupOpened}></Menu>
       </div>
     );
   }

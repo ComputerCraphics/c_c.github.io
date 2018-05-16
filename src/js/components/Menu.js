@@ -6,18 +6,14 @@ class Menu extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menuOpened: false,
-      menuType: '',
+      menuOpened: this.props.menuOpened,
+      menuType: this.props.menuType,
       menuData: []
     };
   }
 
-  componentDidMount() {
-
-  }
-
-  componentWillMount() {
-
+  componentWillReceiveProps(nextProps) {
+    this.setState({ menuOpened: nextProps.menuOpened, menuType: nextProps.menuType, menuData: this.props.shopItemsData });
   }
 
   toggleMenu(type) {
@@ -51,7 +47,7 @@ class Menu extends Component {
           <div className="menu-bar-actions">
             <div className="actions-left">
               <div className="menu-bar-start" onClick={::this.toggleMenu.bind(this, 'projects')}><img src='./public/menu-bar/c-c-start.svg' /></div>
-              <div className="menu-shop-start" onClick={::this.toggleMenu.bind(this, 'shopItems')}><a href="mailto:contact@computercraphics.com"><img src='./public/icons/mailto_icon.svg' /></a></div>
+              <div className="menu-shop-start"><a href="mailto:contact@computercraphics.com"><img src='./public/icons/mailto_icon.svg' /></a></div>
             </div>
             <div className="actions-right">
               <div className="actions-right-block">
