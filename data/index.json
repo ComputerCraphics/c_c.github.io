@@ -38,7 +38,7 @@
       "project_link": "https://techcrunch.com/2017/10/27/how-video-game-tech-makes-neural-networks-possible/",
       "link_name": "Article itself",
       "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
-      "menu_image": "doggo_thumbnail.jpg",
+      "menu_image": "/public/images/doggo_thumbnail.jpg",
       "menu_description": "Doggo 2.0 AI Pet Companion",
       "assets": [
         "<iframe src='https://player.vimeo.com/video/250342379?byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
