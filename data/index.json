@@ -34,12 +34,12 @@
       "url": "doggo",
       "type": "poster",
       "centered": "",
-      "description": "Desc",
+      "description": "Doggo 2.0—a collaboration between GumGum and C_C Robotix—boasts some unbelievable features, such as downloadable face designs, a Tru-Colors Touchscreen interface, 360° four-wheel-drive motion sensors and more than 999 built-in emotions. But what can this robot canine companion actually do? Well, Doggo 2.0 can do a surprising number of things, including playing fetch, reading bedtime stories to the kids, joining you on a morning jog and even yoga (Doggo’s downwards-facing dog is great—natch). But most impressive of all is how Doggo uses Computer Vision to learn and develop understanding. This is a true innovation and an industry first! Check out C_C Robotix’s insane promo video for Doggo 2.0!",
       "project_link": "https://techcrunch.com/2017/10/27/how-video-game-tech-makes-neural-networks-possible/",
       "link_name": "Article itself",
       "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
-      "menu_image": "",
-      "menu_description": "doggo_md",
+      "menu_image": "doggo_thumbnail.jpg",
+      "menu_description": "Doggo 2.0 AI Pet Companion",
       "assets": [
         "<iframe src='https://player.vimeo.com/video/250342379?byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
       ]
