@@ -132,12 +132,12 @@ class Main extends Component {
             </a>
             <a target="_blank" href="https://ello.co/computer_craphics">
               <span className="square-social" id="ello-social">
-                <img src="./public/icons/ello-icon.svg" alt="" />
+                <img src="./public/icons/store-icon.svg" alt="" style={{width: '100px'}} />
               </span>
             </a>
             <a href="#">
               <span className="square-social" onClick={::this.projectSwitcher.bind(this, 'crew')} id="crew-social">
-                <img src="./public/icons/menu-smile.svg" alt="" />
+                <img src="./public/icons/about-icon.svg" alt="" style={{width: '85px'}} />
               </span>
             </a>
             <div className="project-switcher">
@@ -166,12 +166,12 @@ class Main extends Component {
           </a>
           <a target="_blank" href="https://ello.co/computer_craphics">
             <span className="square-social">
-              <img src="./public/icons/ello-icon.svg" alt="" />
+              <img src="./public/icons/store-icon.svg" alt="" style={{width: '100px'}}/>
             </span>
           </a>
           <a href="">
             <span className="square-social" onClick={::this.projectSwitcher.bind(this, 'crew')}>
-              <img src="./public/icons/menu-smile.svg" alt="" />
+              <img src="./public/icons/about-icon.svg" alt="" style={{width: '70px'}}/>
             </span>
           </a>
           <div className="project-switcher">

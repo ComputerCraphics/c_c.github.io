@@ -33,15 +33,18 @@
     .actions-left {
       display: flex;
 
-      width: 100px;
+      width: 130px;
+
+      align-items: center;
       .menu-bar-start {
         margin-left: 2px;
         padding-right: $grid/4;
 
         cursor: pointer;
 
-        border-right: 1px solid black;
-
+        @include respond-to(small) {
+          border-right: 1px solid black;
+        }
         @include respond-to(medium) {
           padding-left: 2px;
         }
@@ -61,8 +64,9 @@
       margin-left: auto;
       padding-left: $grid/4;
 
-      border-left: 1px solid black;
-
+      @include respond-to(small) {
+        border-left: 1px solid black;
+      }
       @include respond-to(medium) {
         width: 250px;
         margin-left: auto;
@@ -195,14 +199,15 @@
           width: 100%;
           max-width: 240px;
           margin: $grid/2 auto;
-          &:first-child {
-            margin-top: $grid;
-          }
+
           @include respond-to(medium) {
             margin: $grid/2;
             &:first-child {
               margin-top: $grid/2;
             }
+          }
+          &:first-child {
+            margin-top: $grid;
           }
           .item-image {
             overflow: hidden;

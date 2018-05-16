@@ -51,7 +51,7 @@ class Menu extends Component {
           <div className="menu-bar-actions">
             <div className="actions-left">
               <div className="menu-bar-start" onClick={::this.toggleMenu.bind(this, 'projects')}><img src='./public/menu-bar/c-c-start.svg' /></div>
-              <div className="menu-shop-start" onClick={::this.toggleMenu.bind(this, 'shopItems')}><img src='./public/menu-bar/c-c-head.svg' /></div>
+              <div className="menu-shop-start" onClick={::this.toggleMenu.bind(this, 'shopItems')}><a href="mailto:contact@computercraphics.com"><img src='./public/icons/mailto_icon.svg' /></a></div>
             </div>
             <div className="actions-right">
               <div className="actions-right-block">
