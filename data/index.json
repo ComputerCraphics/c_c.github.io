@@ -29,8 +29,22 @@
         "/public/images/project-poster-1-copy.png"
       ]
     },
-    {
+       {
       "url": "doggo2",
+      "type": "poster",
+      "centered": "centered",
+      "description": "Doggo 2.0",
+      "project_link": "https://www.thevisionary.com/computer-vision/introducing-latest-ai-tech-toy-sensation-doggo-2-0/",
+      "link_name": "Article itself",
+      "tags": "#tag one, #tag two, #tag three.",
+      "menu_image": "/public/images/doggo_thumbnail.jpg",
+      "menu_description": "Doggo 2.0 AI Pet COmpanion",
+      "assets": [
+        "<iframe src='https://player.vimeo.com/video/250342379?byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+      ]
+    },
+    {
+      "url": "doggo1",
       "type": "video",
       "centered": "centered",
       "description": "Doggo 2.0",
@@ -38,7 +52,7 @@
       "link_name": "Article itself",
       "tags": "",
       "menu_image": "/public/images/doggo_thumbnail.jpg",
-      "menu_description": "Doggo 2.0 AI Pet COmpanion",
+      "menu_description": "Doggo 1.0 AI Pet COmpanion",
       "assets": [
         "<iframe src='https://player.vimeo.com/video/250342379?byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
       ]
