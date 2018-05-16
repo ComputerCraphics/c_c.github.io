@@ -41,11 +41,7 @@
       "menu_image": "",
       "menu_description": "doggo_md",
       "assets": [
-        "/public/gifs/game_tech/game_tech_1.gif",
-        "/public/gifs/game_tech/game_tech_2.gif",
-        "/public/gifs/game_tech/game_tech_3.gif",
-        "/public/gifs/game_tech/game_tech_4.gif",
-        "/public/gifs/game_tech/game_tech_5.png"
+        "<iframe src='https://player.vimeo.com/video/250342379?byline=0&portrait=0' width='640' height='360' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
       ]
     },
         {
