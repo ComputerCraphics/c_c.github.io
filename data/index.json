@@ -41,7 +41,7 @@
       "menu_image": "/public/images/doggo_thumbnail.jpg",
       "menu_description": "Doggo 2.0 AI Pet Companion",
       "assets": [
-        "<iframe src="https://player.vimeo.com/video/248113831?color=ffffff&title=0&byline=0&portrait=0" width="343" height="193" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+        ""
       ]
     },
         {
