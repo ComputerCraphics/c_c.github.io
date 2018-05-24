@@ -208,6 +208,9 @@
           }
           &:first-child {
             margin-top: $grid;
+            @include respond-to(medium) {
+              margin-top: $grid/2;
+            }
           }
           .item-image {
             overflow: hidden;
