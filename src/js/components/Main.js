@@ -155,6 +155,9 @@ class Main extends Component {
               <div className="prev-btn" onClick={::this.projectSwitcher.bind(this, 'prev')}><img src="./public/icons/arrow-left.svg" alt="" /></div>
               <div className="next-btn" onClick={::this.projectSwitcher.bind(this, 'next')}><img src="./public/icons/arrow-right.svg" alt="" /></div>
             </div>
+            <span className="project-inscription">
+              Projects
+            </span>
           </div>
           <Project project={this.props.projects[this.state.projectID]} projectSwitcher={::this.projectSwitcher.bind(this)} />
         </div>
