@@ -20,7 +20,7 @@ class Project extends Component {
   render() {
     return (
       <div className={"project" + " " + this.props.project.type}>
-        { this.props.project.type === 'video'
+        { this.props.project.type === 'homepage'
           ?
             <div>
               <div className="video-line">
@@ -71,7 +71,7 @@ class Project extends Component {
             <div className={"poster-wrapper" + " " + this.props.project.centered}>
               <div className="poster">
                 { this.props.project.assets.map((asset, key) =>
-                  <img src={asset} key={key} alt="" />
+                  asset.includes('iframe') ? <div className="poster-video" dangerouslySetInnerHTML={{__html: asset}} key={key}></div> : <img src={asset} key={key} alt="" />
                 )}
               </div>
               <div className="poster-scroll">

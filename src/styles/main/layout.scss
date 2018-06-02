@@ -191,8 +191,16 @@ ul {
 
       flex: 1;
       // &.active {
-      &.video {
+      &.homepage {
         display: block;
+        max-width: calc(73vh * 1.7);
+
+        @include respond-to(medium) {
+          border: 1px solid white;
+        }
+      }
+      &.video {
+        display: flex;
       }
       &.poster {
         display: flex;
@@ -345,6 +353,21 @@ ul {
             width: 100%;
             height: 100%;
           }
+          .poster-video {
+            position: relative;
+            // padding-top: 25px;
+
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 */
+            iframe {
+              position: absolute;
+              top: 0;
+              left: 0;
+
+              width: 100%;
+              height: 100%;
+            }
+          }
           .poster-scroll {
             position: absolute;
             bottom: 165px;
@@ -358,13 +381,6 @@ ul {
               cursor: pointer;
             }
           }
-        }
-      }
-      &.video {
-        max-width: calc(73vh * 1.7);
-
-        @include respond-to(medium) {
-          border: 1px solid white;
         }
       }
       img {
