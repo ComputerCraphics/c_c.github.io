@@ -158,6 +158,24 @@
       height: 100%;
 
       flex: 1;
+      .menu-close {
+        font-family: sans-serif;
+
+        position: absolute;
+
+        margin: 10px 0 -20px 10px;
+
+        cursor: pointer;
+
+        color: black;
+        z-index: 999;
+
+        @include respond-to(medium) {
+          position: relative;
+
+          margin: 10px 0 -10px 20px;
+        }
+      }
       .items-list {
         position: relative;
 
@@ -165,13 +183,13 @@
         overflow-y: scroll;
 
         width: 98%;
-        height: 94%;
+        height: 91%;
         margin: 3px 0 0 $grid/4;
 
         flex-wrap: wrap;
         align-content: stretch;
         @include respond-to(medium) {
-          height: 98%;
+          height: 95%;
           margin: $grid/2 0 0 $grid/2;
         }
         &::-webkit-scrollbar {
@@ -208,6 +226,7 @@
           }
           &:first-child {
             margin-top: $grid;
+
             @include respond-to(medium) {
               margin-top: $grid/2;
             }

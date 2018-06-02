@@ -36,6 +36,12 @@ class Menu extends Component {
         menuType: '',
         menuData: []
       })
+    } else {
+      this.setState({
+        menuOpened: false,
+        menuType: '',
+        menuData: []
+      })
     }
   }
 
@@ -63,6 +69,7 @@ class Menu extends Component {
               &&
                 <div className="menu-popup-content">
                   <div className="menu-popup-items">
+                    <div className="menu-close" onClick={::this.toggleMenu.bind(this, 'close')}>CLOSE</div>
                     <ul className="items-list">
                       { this.state.menuData.map((item, key) => {
                           if ( item.url !== '' && item.url !== 'about') {

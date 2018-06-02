@@ -447,6 +447,58 @@ ul {
   white-space: nowrap;
 
   color: white;
+  // &.top {
+  //   &:after {
+  //     content: "";
+  //     display: block;
+  //     width: 0;
+  //     height: 0;
+  //     margin-left:-500px;
+  //     margin-top:-500px;
+
+  //     border-left: 500px solid transparent;
+  //     border-top: 500px solid #4679BD;
+  //   }
+  // }
+  // &.right {
+  //   &:after {
+  //     content: "";
+  //     display: block;
+  //     width: 0;
+  //     height: 0;
+  //     margin-left:-500px;
+  //     margin-top:-500px;
+
+  //     border-left: 500px solid transparent;
+  //     border-top: 500px solid #4679BD;
+  //   }
+  // }
+  // &.left {
+  //   &:after {
+  //     content: "";
+  //     display: block;
+  //     width: 0;
+  //     height: 0;
+  //     margin-left:-500px;
+  //     margin-top:-500px;
+
+  //     border-left: 500px solid transparent;
+  //     border-top: 500px solid #4679BD;
+  //   }
+  // }
+  // &.bottom {
+  //   &:after {
+  //     content: "";
+  //     display: block;
+  //     width: 0;
+  //     height: 0;
+  //     margin-left:-500px;
+  //     margin-top:-500px;
+
+  //     border-left: 500px solid transparent;
+  //     border-top: 500px solid #4679BD;
+  //   }
+  // }
   &.top, &.right {
     .marquee-running-line-1 {
       display: inline-block;
