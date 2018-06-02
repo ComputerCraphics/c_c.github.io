@@ -200,9 +200,14 @@ ul {
         }
       }
       &.video {
-        display: flex;
+        .poster > img {
+          @include respond-to(medium) {
+            width: 100% !important;
+            height: auto !important;
+          }
+        }
       }
-      &.poster {
+      &.poster, &.video {
         display: flex;
       }
       // }
@@ -263,7 +268,7 @@ ul {
           }
         }
       }
-      &.poster {
+      &.poster, &.video {
         flex-wrap: wrap-reverse;
         @include respond-to(medium) {
           margin-left: $padding-large;
@@ -332,7 +337,7 @@ ul {
           &.centered {
             max-height: none;
 
-            .poster {
+            .poster, .video {
               img {
                 @include respond-to(medium) {
                   width: auto;
@@ -345,7 +350,7 @@ ul {
               display: none;
             }
           }
-          .poster {
+          .poster, .video {
             position: relative;
 
             overflow-y: scroll;
