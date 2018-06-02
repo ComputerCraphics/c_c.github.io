@@ -14,11 +14,12 @@ export function switcherHover() {
   const pinterestBtn = document.querySelector('#pinterest-social');
   const instagramBtn = document.querySelector('#instagram-social');
   const facebookBtn = document.querySelector('#facebook-social');
+  const mapBtn = document.querySelector('#location');
 
   const btnPopup = document.querySelector('.btn-popup');
 
-  const hoverArr = [ prevBtn[0] ,nextBtn[0] ,crewBtn ,elloBtn ,pinterestBtn ,instagramBtn ,facebookBtn ];
-  const hoverArrWords = [ 'Previous project' , 'Next project' , 'About' , 'Shop' , 'Pinterest' , 'Instagram' , 'Facebook' ];
+  const hoverArr = [ prevBtn[0] ,nextBtn[0] ,crewBtn ,elloBtn ,pinterestBtn ,instagramBtn ,facebookBtn, mapBtn ];
+  const hoverArrWords = [ 'Previous project' , 'Next project' , 'About' , 'Shop' , 'Pinterest' , 'Instagram' , 'Facebook', 'Visit us' ];
 
   hoverArr.forEach((item, index) => {
     item.addEventListener('mouseover', (e) => {
@@ -31,8 +32,8 @@ export function switcherHover() {
   })
 
   document.addEventListener('mousemove', (event) => {
-    btnPopup.style.left = event.clientX + 15 + 'px';
-    btnPopup.style.top = event.clientY + 25 + 'px';
+    btnPopup.style.left = event.clientX + 10 + 'px';
+    btnPopup.style.top = event.clientY - 50 + 'px';
   })
 }
 
