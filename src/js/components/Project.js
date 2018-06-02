@@ -7,14 +7,51 @@ import { posterScrollFunc } from '../vanila.js';
 class Project extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      randomSticker: Number(this.getCookie('randomSticker'))
+    }
   }
 
   componentDidMount() {
     posterScrollFunc();
+
+    if (this.getCookie('randomSticker')) {
+      this.setCookie('randomSticker', Number(this.state.randomSticker) + 1, 30)
+    } else {
+      this.setCookie('randomSticker', 0, 30)
+      this.setState({randomSticker: 0})
+    }
   }
 
   componentWillReceiveProps() {
     posterScrollFunc();
+  }
+
+  setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    if (this.state.randomSticker >= this.props.stickers.length - 1) {
+      document.cookie = cname + "=" + 0 + ";" + expires + ";path=/";
+    } else {
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+  }
+
+  getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i <ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
   }
 
   render() {
@@ -34,11 +71,18 @@ class Project extends Component {
               <div className="videoWrapper">
                 <div dangerouslySetInnerHTML={{__html: this.props.project.assets[0]}}></div>
                 <div className="video-logo">
-                  <div className="images-container">
-                    <img className="outer" src="./public/icons/video-logo-outer.svg" alt="" />
-                    <img className="inner" src="./public/icons/video-logo-inner.svg" alt="" />
-                    <img className="center" src="./public/icons/video-logo-center.svg" alt="" />
-                  </div>
+                  { typeof(this.props.stickers[Number(this.state.randomSticker)]) === 'object'
+                    ?
+                      <div className="images-container">
+                        <img className="outer" src={this.props.stickers[Number(this.state.randomSticker)][0]} alt="" />
+                        <img className="inner" src={this.props.stickers[Number(this.state.randomSticker)][1]} alt="" />
+                        <img className="center" src={this.props.stickers[Number(this.state.randomSticker)][2]} alt="" />
+                      </div>
+                    :
+                      <div className="images-container">
+                        <img src={this.props.stickers[this.state.randomSticker]} alt="" />
+                      </div>
+                  }
                 </div>
               </div>
               <div className="scroll-text" onClick={::this.props.projectSwitcher.bind(this, 'next')}>

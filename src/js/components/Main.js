@@ -159,7 +159,7 @@ class Main extends Component {
               Projects
             </span>
           </div>
-          <Project project={this.props.projects[this.state.projectID]} projectSwitcher={::this.projectSwitcher.bind(this)} />
+          <Project stickers={this.props.stickers} project={this.props.projects[this.state.projectID]} projectSwitcher={::this.projectSwitcher.bind(this)} />
         </div>
         <div className="navbar mobile">
           <img src="./public/icons/menu-top-bar-mobile.png" alt="" />

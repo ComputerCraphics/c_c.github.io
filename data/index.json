@@ -1,5 +1,8 @@
 {
-  "last_update": "5/15/2018",
+  "last_update": "6/2/2018",
+  "stickers": [
+    ["./public/icons/video-logo-outer.svg", "./public/icons/video-logo-inner.svg", "./public/icons/video-logo-center.svg"]
+  ],
   "projects": [
     {
       "url": "",
