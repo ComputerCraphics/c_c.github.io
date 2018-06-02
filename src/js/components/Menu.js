@@ -51,7 +51,7 @@ class Menu extends Component {
             </div>
             <div className="actions-right">
               <div className="actions-right-block">
-                <img src='./public/menu-bar/globe-icon.svg' />
+                <a href="https://www.google.com/maps/place/61+Wyckoff+Ave,+Brooklyn,+NY+11237/@40.705741,-73.9222193,18z/data=!4m5!3m4!1s0x89c25c1d9e5d7723:0x3b89051fdd2b5d1b!8m2!3d40.705741!4d-73.921125" target="_blank"><img src='./public/menu-bar/globe-icon.svg' /></a>
                 <img src='./public/icons/menu-smile.svg' />
                 <span>Last Upd {this.props.lastUpd}</span>
               </div>
@@ -103,7 +103,7 @@ class Menu extends Component {
                       </div>
                       <div className="right-col"><img src="./public/menu-bar/actions-icons-right-col.svg" alt="" /></div>
                     </div>
-                    <div className="random-pic"><img src="./public/menu-bar/random-pic.png" alt="" /></div>
+                    <div className="random-pic"><a target="_blank" href="https://www.instagram.com/dwayne2020/"><img src="./public/menu-bar/random-pic.png" alt="" /></a></div>
                   </div>
                 </div>
             }
