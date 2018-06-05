@@ -133,11 +133,10 @@
       "project_link": "",
       "link_name": "",
       "tags": "#computer vision, #machine learning, #neural networks, #datascience, #techrunch, #artificial intelligence.",
-      "menu_image": "",
-      "menu_description": "Microchips",
+      "menu_image": "/public/images/MICROCHIPS_thumbnail.jpg",
+      "menu_description": "Microchips gif/videoloop",
       "assets": [
         "<iframe width='560' height='315' src='https://www.youtube.com/embed/7jrTwAb_sQ4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
-        "/public/images/DOGGO_15.jpg",
         "/public/gifs/microchips_macrodips/microchips_macrodips.gif"
       ]
     }
