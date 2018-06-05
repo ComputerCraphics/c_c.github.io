@@ -66,7 +66,7 @@
       "link_name": "Article itself",
       "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
       "menu_image": "/public/images/GPUMAN_thumbnail.jpg",
-      "menu_description": "gumgum-techcrunch",
+      "menu_description": "GPU-MAN gifs",
       "assets": [
         "/public/gifs/game_tech/game_tech_5.png",
         "/public/gifs/game_tech/game_tech_1.gif",
@@ -98,7 +98,7 @@
       "link_name": "Read the article",
       "tags": "#computer vision, #machine learning, #neural networks, #computer vision, #datascience, #techrunch.",
       "menu_image": "",
-      "menu_description": "GPU man",
+      "menu_description": "11",
       "assets": [
         "/public/gifs/techrunch_gumguminc/techrunch_gumguminc_1.gif",
         "/public/gifs/techrunch_gumguminc/techrunch_gumguminc_2.gif",
