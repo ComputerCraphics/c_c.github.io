@@ -43,7 +43,8 @@
       "menu_image": "/public/images/doggo_thumbnail.jpg",
       "menu_description": "Doggo 2.0 AI Pet Companion",
       "assets": [
-        "<iframe width='560' height='315' src='https://www.youtube.com/embed/7jrTwAb_sQ4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>Hello"
+        "<iframe width='560' height='315' src='https://www.youtube.com/embed/7jrTwAb_sQ4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
+        "/public/gifs/techrunch_gumguminc/techrunch_gumguminc_1.gif"
       ]
     },
     {
