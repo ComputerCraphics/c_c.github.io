@@ -86,7 +86,8 @@
       "menu_image": "/public/images/GOOGLE_thumbnail.jpg",
       "menu_description": "Google gifs",
       "assets": [
-        "/public/gifs/google_proj/google_proj.gif"
+        "/public/gifs/google_proj/google_proj.gif",
+        "/public/gifs/google_proj/google_proj_02.gif"
       ]
     },
     {
