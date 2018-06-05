@@ -68,11 +68,11 @@
       "menu_image": "",
       "menu_description": "gumgum-techcrunch",
       "assets": [
+        "/public/gifs/game_tech/game_tech_5.png",
         "/public/gifs/game_tech/game_tech_1.gif",
-        "/public/gifs/game_tech/game_tech_2.gif",
         "/public/gifs/game_tech/game_tech_3.gif",
         "/public/gifs/game_tech/game_tech_4.gif",
-        "/public/gifs/game_tech/game_tech_5.png"
+        "/public/gifs/game_tech/game_tech_2.gif"
       ]
     },
     {
