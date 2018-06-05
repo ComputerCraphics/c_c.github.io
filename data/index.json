@@ -144,100 +144,82 @@
   "shop_items": [
     {
       "menu_image": "/public/shop_items/CCLOOT_Shirt1_thumbn.jpg",
-      "menu_description": "C_C LOOT Toolbar - Premium Long-Sleeve Shirt",
+      "menu_description": "C_C Loot 'Toolbar' - Premium Long-Sleeve Shirt",
       "price": "44$",
       "link": ""
     },
     {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+       {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
+        {
       "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
+      "menu_description": "C_C Loot",
+      "price": "",
       "link": ""
     },
-    {
-      "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
-      "link": ""
-    },
-    {
-      "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
-      "link": ""
-    },
-    {
-      "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "T-Shirt C_C",
-      "price": "40$",
-      "link": ""
-    }
   ],
   "mini_actions_links": [
     "https://www.facebook.com/computercraphics/",
