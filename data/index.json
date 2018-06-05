@@ -44,16 +44,7 @@
       "menu_description": "Doggo 2.0 AI Pet Companion",
       "assets": [
         "<iframe width='560' height='315' src='https://www.youtube.com/embed/7jrTwAb_sQ4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>Hello",
-        "/public/images/DOGGO_14.jpg",
-        "/public/images/DOGGO_10.jpg",
-        "/public/images/DOGGO_08.jpg",
-        "/public/images/DOGGO_11.jpg",
-        "/public/images/DOGGO_06.jpg",
-        "/public/images/DOGGO_03.jpg",
-        "/public/images/DOGGO_01.jpg",
-        "/public/images/DOGGO_02.jpg",
-        "/public/images/DOGGO_12.jpg",
-        "/public/images/DOGGO_13.jpg"
+        "/public/images/DOGGO_14.jpg"
       ]
     },
     {
