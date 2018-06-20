@@ -31,7 +31,7 @@ class Project extends Component {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires="+ d.toUTCString();
-    if (this.state.randomSticker >= this.props.stickers.length - 1) {
+    if (Number(this.state.randomSticker) >= Number(this.props.stickers.length) - 1) {
       document.cookie = cname + "=" + 0 + ";" + expires + ";path=/";
     } else {
       document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
@@ -90,11 +90,18 @@ class Project extends Component {
                 <img src="./public/icons/arrow-long.svg" alt="" />
               </div>
               <div className="video-logo-mobile">
-                <div className="images-container">
-                  <img className="outer" src="./public/icons/video-logo-outer.svg" alt="" />
-                  <img className="inner" src="./public/icons/video-logo-inner.svg" alt="" />
-                  <img className="center" src="./public/icons/video-logo-center.svg" alt="" />
-                </div>
+                { typeof(this.props.stickers[Number(this.state.randomSticker)]) === 'object'
+                  ?
+                    <div className="images-container">
+                      <img className="outer" src={this.props.stickers[Number(this.state.randomSticker)][0]} alt="" />
+                      <img className="inner" src={this.props.stickers[Number(this.state.randomSticker)][1]} alt="" />
+                      <img className="center" src={this.props.stickers[Number(this.state.randomSticker)][2]} alt="" />
+                    </div>
+                  :
+                    <div className="images-container">
+                      <img src={this.props.stickers[this.state.randomSticker]} alt="" />
+                    </div>
+                }
               </div>
             </div>
           :
