@@ -65,10 +65,10 @@
       "project_link": "https://www.thevisionary.com/videos/an-animated-history-of-the-visual-web-video",
       "link_name": "See it on Visionary",
       "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
-      "menu_image": "/public/images/TARGET_thumbnail.jpg",
+      "menu_image": "/public/images/VISUALWEB_thumbnail.jpg",
       "menu_description": "An Animated History of the Visual Web",
       "assets": [
-        "<iframe src='https://player.vimeo.com/video/238954883?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "<iframe src='https://player.vimeo.com/video/224979300?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
         "/public/images/VISUALWEB_06.png",
         "/public/images/VISUALWEB_05.png",
         "/public/images/VISUALWEB_07.png",
