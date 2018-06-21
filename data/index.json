@@ -122,7 +122,9 @@
       "menu_description": "AdAge AR Magazine Cover",
       "assets": [
         "<iframe src='https://player.vimeo.com/video/248611366?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
-        "/public/images/ADAGE_01.jpg"
+        "/public/images/ADAGE_02.jpg",
+        "/public/images/ADAGE_03.jpg",
+        "/public/gifs/ADAGE_04.gif"
       ]
     },
     {
