@@ -58,6 +58,27 @@
       ]
     },
         {
+      "url": "visualweb",
+      "type": "video",
+      "centered": "centered",
+      "description": "How did a group of ‘90s caffeine-addicted computer nerds brew up the visual web as we know it? A short documentary looking at how a cup o’ Joe helped brew up the era of GIFs, NSFW selfies and social media. 3 billion fans can’t be wrong.",
+      "project_link": "https://www.thevisionary.com/videos/an-animated-history-of-the-visual-web-video",
+      "link_name": "See it on Visionary",
+      "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
+      "menu_image": "/public/images/TARGET_thumbnail.jpg",
+      "menu_description": "An Animated History of the Visual Web",
+      "assets": [
+        "<iframe src='https://player.vimeo.com/video/238954883?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "/public/images/VISUALWEB_06.png",
+        "/public/images/VISUALWEB_05.png",
+        "/public/images/VISUALWEB_07.png",
+        "/public/images/VISUALWEB_08.png",
+        "/public/images/VISUALWEB_09.png",
+        "/public/images/VISUALWEB_10.png",
+        "/public/images/VISUALWEB_04.png"
+      ]
+    },
+            {
       "url": "target",
       "type": "video",
       "centered": "centered",
