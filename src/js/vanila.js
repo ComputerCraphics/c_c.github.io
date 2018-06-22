@@ -54,6 +54,8 @@ export function posterScrollFunc() {
     scrollBtnsBot[i] = item.children[1];
     scrollRate[i] = 0;
 
+    scrollDiv(false, scrollBtnsTop[i].parentNode.parentNode.children[0], scrollRate[i]);
+
     scrollBtnsTop[i].addEventListener('click', () => {
       if (scrollRate[i] <= 0) {
         scrollRate[i] = 0;
