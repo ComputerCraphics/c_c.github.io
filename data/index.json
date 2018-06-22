@@ -22,7 +22,7 @@
       "url": "about",
       "type": "poster",
       "centered": "centered",
-      "description": "<br>Year 2018. Computer Craphics, Inc., aka C_C, is a digital force secretly based in NYC and LA.</br> <br>It specializes in unique digital projects. C_C’s work is unmistakable and spans a wide variety of mediums: 3D animation, illustration, GIFs, augmented reality, virtual reality, fashion, web design, sound design and much more.</br><br>Email to <a href='mailto:contact@computercraphics.com'>contact@computercraphics.com</a> to book Computer Craphics, Inc. for your next RAD project.</br>",
+      "description": "<br>Year 2018. Computer Craphics, Inc. (aka C_C) is a digital force with headquarters in NYC.</br> <br>Our work spans a wide variety of mediums: 3D animations, digital illustrations, GIFs, augmented reality, virtual reality, fashion, sound design and much more.</br><br><br>contact@computercraphics.com<br>Instagram @computer_craphics<br>61 Wyckoff Ave., Brooklyn NY 11237<br></br>",
       "project_link": "",
       "link_name": "",
       "tags": "#tag one, #tag two, #tag three.",
@@ -55,6 +55,74 @@
         "/public/images/DOGGO_02.jpg",
         "/public/images/DOGGO_12.jpg",
         "/public/images/DOGGO_13.jpg"
+      ]
+    },
+        {
+      "url": "robo",
+      "type": "video",
+      "centered": "centered",
+      "description": "🏆 Selected winner at International Motion Art Awards 6",
+      "project_link": "",
+      "link_name": "",
+      "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
+      "menu_image": "/public/images/ROBO_thumbnail.jpg",
+      "menu_description": "Virtual robo factory tour",
+      "assets": [
+        "<iframe src='https://player.vimeo.com/video/209842109?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "/public/images/CCROBOTIX_07.png",
+        "/public/images/CCROBOTIX_06.png"
+      ]
+    },
+        {
+      "url": "visualweb",
+      "type": "video",
+      "centered": "centered",
+      "description": "How did a group of ‘90s caffeine-addicted computer nerds brew up the visual web as we know it? A short documentary looking at how a cup o’ Joe helped brew up the era of GIFs, NSFW selfies and social media. 3 billion fans can’t be wrong.",
+      "project_link": "https://www.thevisionary.com/videos/an-animated-history-of-the-visual-web-video",
+      "link_name": "See it on Visionary",
+      "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
+      "menu_image": "/public/images/VISUALWEB_thumbnail.jpg",
+      "menu_description": "An Animated History of the Visual Web",
+      "assets": [
+        "<iframe src='https://player.vimeo.com/video/224979300?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "/public/images/VISUALWEB_06.png",
+        "/public/images/VISUALWEB_05.png",
+        "/public/images/VISUALWEB_07.png",
+        "/public/images/VISUALWEB_08.png",
+        "/public/images/VISUALWEB_09.png",
+        "/public/images/VISUALWEB_10.png",
+        "/public/images/VISUALWEB_04.png"
+      ]
+    },
+            {
+      "url": "target",
+      "type": "video",
+      "centered": "centered",
+      "description": "TARGET VR Shopping Experience",
+      "project_link": "http://targetvr.run/",
+      "link_name": "Check out Target VR Shopping experience concept",
+      "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
+      "menu_image": "/public/images/TARGET_thumbnail.jpg",
+      "menu_description": "Target VR",
+      "assets": [
+        "<iframe src='https://player.vimeo.com/video/238954883?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "/public/images/TARGET_01.jpg",
+        "/public/images/TARGET_02.jpg"
+      ]
+    },
+                {
+      "url": "AdAge",
+      "type": "video",
+      "centered": "centered",
+      "description": "AdAge AR Magazine Cover",
+      "project_link": "",
+      "link_name": "",
+      "tags": "#c_c_inc, #computer vision, #computer art, #techrunch, #gumgum.",
+      "menu_image": "/public/images/ADAGE_thumbnail.jpg",
+      "menu_description": "AdAge AR Magazine Cover",
+      "assets": [
+        "<iframe src='https://player.vimeo.com/video/248611366?byline=0&portrait=0' width='560' height='315' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "/public/images/ADAGE_02.jpg"
       ]
     },
     {
