@@ -67,7 +67,8 @@ class Main extends Component {
 
       this.setState({
         currentPath: data[projectID].url,
-        projectID: projectID
+        projectID: projectID,
+        menuPopupOpened: false
       });
 
       window.history.pushState(projectID, 'C_C', '?' + data[projectID].url);
@@ -76,7 +77,8 @@ class Main extends Component {
 
       this.setState({
         currentPath: data[projectID].url,
-        projectID: projectID
+        projectID: projectID,
+        menuPopupOpened: false
       });
 
       window.history.pushState(projectID, 'C_C', '?' + data[projectID].url);
@@ -85,7 +87,8 @@ class Main extends Component {
 
       this.setState({
         currentPath: data[projectID].url,
-        projectID: projectID
+        projectID: projectID,
+        menuPopupOpened: false
       });
 
       window.history.pushState(projectID, 'C_C', '?' + data[projectID].url);
@@ -100,7 +103,8 @@ class Main extends Component {
 
       this.setState({
         currentPath: data[projectID].url,
-        projectID: projectID
+        projectID: projectID,
+        menuPopupOpened: false
       });
 
       window.history.pushState(projectID, 'C_C', '?' + data[projectID].url);

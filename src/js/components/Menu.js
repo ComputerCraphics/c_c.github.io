@@ -12,6 +12,10 @@ class Menu extends Component {
     };
   }
 
+  componentDidMount() {
+    this.setState({ menuOpened: false });
+  }
+
   componentWillReceiveProps(nextProps) {
     this.setState({ menuOpened: nextProps.menuOpened, menuType: nextProps.menuType, menuData: this.props.shopItemsData });
   }
