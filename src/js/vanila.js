@@ -43,11 +43,24 @@ export function posterScrollFunc() {
   const posterScrollBottom = document.querySelectorAll('.poster-scroll-bottom');
 
   const posterScrollBtns = document.querySelectorAll('.poster-wrapper > .poster-scroll');
+  const posterDiv = document.querySelector('.poster');
 
   let scrollBtnsTop = [];
   let scrollBtnsBot = [];
 
   let scrollRate = [];
+
+  if (posterDiv) {
+    posterDiv.addEventListener('scroll', e => {
+      if (scrollRate[0] <= 0) {
+          scrollRate[0] = 0;
+          scrollRate[1] = 0;
+        } else {
+          scrollRate[0] += -1;
+          scrollRate[1] += -1;
+        }
+    });
+  }
 
   posterScrollBtns.forEach((item, i) => {
     scrollBtnsTop[i] = item.children[0];
