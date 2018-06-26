@@ -22,7 +22,7 @@
       "url": "about",
       "type": "poster",
       "centered": "centered",
-      "description": "<br>  Computer_Craphics is a full-service digital animation production agency. Our work spans a wide variety of mediums: 3D animations, digital illustrations, GIF's, augmented reality, virtual reality, interactive experiences and much more. <br><br> Get in touch, we're excited to work with you on your creative projects! <br><br> <img src='/public/icons/mail.png' height='80' width='80'> <br> contact@computercraphics.com <br><br> <img src='/public/icons/map.png' height='80' width='80'> <br> 61 Wyckoff Ave., Brooklyn NY 11237",
+      "description": "<br>  Computer_Craphics is a full-service digital animation production agency. Our work spans a wide variety of mediums: 3D animations, digital illustrations, GIF's, augmented reality, virtual reality, interactive experiences and much more. <br><br> Get in touch, we're excited to work with you on your creative projects! <br><br> <img src='/public/icons/mail.png' height='80' width='80'> <br> contact@computercraphics.com <br><br> <img src='/public/icons/map.png' height='80' max-width='80'> <br> 61 Wyckoff Ave., Brooklyn NY 11237",
       "project_link": "",
       "link_name": "",
       "tags": "#tag one, #tag two, #tag three.",
