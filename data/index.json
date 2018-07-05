@@ -1,7 +1,6 @@
 {
   "last_update": "6/2/2018",
   "stickers": [
-    ["./public/stickers/video-logo-outer.svg", "./public/stickers/video-logo-inner.svg", "./public/stickers/video-logo-center.svg"]
   ],
   "projects": [
     {
