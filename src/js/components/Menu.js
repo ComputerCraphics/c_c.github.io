@@ -73,7 +73,7 @@ class Menu extends Component {
               &&
                 <div className="menu-popup-content">
                   <div className="menu-popup-items">
-                    <div className="menu-close" onClick={::this.toggleMenu.bind(this, 'close')}>CLOSE</div>
+                    <div className="menu-close" onClick={::this.toggleMenu.bind(this, 'close')}><img src="./public/icons/x_close.svg"/></div>
                     <ul className="items-list">
                       { this.state.menuData.map((item, key) => {
                           if ( item.url !== '' && item.url !== 'about') {
