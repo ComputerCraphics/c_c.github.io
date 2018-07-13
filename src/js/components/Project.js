@@ -107,6 +107,7 @@ class Project extends Component {
           :
           <div>
             <div className="text-wrapper">
+              <div className="title">{this.props.project.menu_description}</div>
               <div className="description" dangerouslySetInnerHTML={{__html: this.props.project.description}}>
               </div>
               <div className="tags">{this.props.project.tags}</div>
