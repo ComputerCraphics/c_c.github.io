@@ -58,7 +58,7 @@ class Main extends Component {
 
     if (direction === 'next') {
       if (projectID === maxID) {
-        projectID = 0
+        projectID = 2
       } else if (projectID === 0) {
         projectID = projectID + 2
       } else {
@@ -96,7 +96,7 @@ class Main extends Component {
       if (projectID === 0) {
         projectID = maxID
       } else if (projectID === 2) {
-        projectID = projectID - 2
+        projectID = maxID
       } else {
         projectID -= 1
       }
