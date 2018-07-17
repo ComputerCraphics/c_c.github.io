@@ -71,17 +71,18 @@ class Project extends Component {
               <div className="videoWrapper">
                 <div dangerouslySetInnerHTML={{__html: this.props.project.assets[0]}}></div>
                 <div className="video-logo">
-                  { typeof(this.props.stickers[Number(this.state.randomSticker)]) === 'object'
-                    ?
-                      <div className="images-container">
-                        <img className="outer" src={this.props.stickers[Number(this.state.randomSticker)][0]} alt="" />
-                        <img className="inner" src={this.props.stickers[Number(this.state.randomSticker)][1]} alt="" />
-                        <img className="center" src={this.props.stickers[Number(this.state.randomSticker)][2]} alt="" />
-                      </div>
-                    :
-                      <div className="images-container">
-                        <img src={this.props.stickers[this.state.randomSticker]} alt="" />
-                      </div>
+                  {
+                    // typeof(this.props.stickers[Number(this.state.randomSticker)]) === 'object'
+                    // ?
+                    //   <div className="images-container">
+                    //     <img className="outer" src={this.props.stickers[Number(this.state.randomSticker)][0]} alt="" />
+                    //     <img className="inner" src={this.props.stickers[Number(this.state.randomSticker)][1]} alt="" />
+                    //     <img className="center" src={this.props.stickers[Number(this.state.randomSticker)][2]} alt="" />
+                    //   </div>
+                    // :
+                    //   <div className="images-container">
+                    //     <img src={this.props.stickers[this.state.randomSticker]} alt="" />
+                    //   </div>
                   }
                 </div>
               </div>
