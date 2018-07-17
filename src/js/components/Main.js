@@ -197,7 +197,7 @@ class Main extends Component {
             <div className="next-btn" onClick={::this.projectSwitcher.bind(this, 'next')}><img src="./public/icons/arrow-bottom.svg" alt="" /></div>
           </div>
         </div>
-        <Menu projectsData={this.props.projects} shopItemsData={this.props.shopItems} lastUpd={this.props.lastUpd} miniActionsLinks={this.props.miniActionsLinks} menuType={this.state.menuType} menuOpened={this.state.menuPopupOpened}></Menu>
+        <Menu projectsData={this.props.projects} shopItemsData={this.props.shopItems} lastUpd={this.props.lastUpd} miniActionsLinks={this.props.miniActionsLinks} menuType={this.props.menuType} menuOpened={this.state.menuPopupOpened} randomPicLink={this.props.randomPicLink}></Menu>
       </div>
     );
   }

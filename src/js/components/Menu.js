@@ -114,7 +114,7 @@ class Menu extends Component {
                       </div>
                       <div className="right-col"><img src="./public/menu-bar/actions-icons-right-col.svg" alt="" /></div>
                     </div>
-                    <div className="random-pic"><a target="_blank" href="https://www.instagram.com/dwayne2020/"><img src="./public/menu-bar/random-pic.png" alt="" /></a></div>
+                    <div className="random-pic"><a target="_blank" href={this.props.randomPicLink}><img src="./public/menu-bar/random-pic.png" alt="" /></a></div>
                   </div>
                 </div>
             }
