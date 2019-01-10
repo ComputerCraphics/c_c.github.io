@@ -2,7 +2,7 @@
   "last_update": "6/2/2018",
   "stickers": [
   ],
-  "randomPicLink": "https://www.instagram.com/dwayne2020/",
+  "randomPicLink": "https://www.dwayne2020.com/",
   "projects": [
     {
       "url": "",
@@ -212,15 +212,15 @@
   "shop_items": [
     {
       "menu_image": "/public/shop_items/CCLOOT_Shirt1_thumbn_3.gif",
-      "menu_description": "C_C Loot 'Toolbar' - Premium Long-Sleeve Shirt",
-      "price": "44$",
-      "link": ""
+      "menu_description": "C_C Loot 'Edition 1.0' - Premium Long-Sleeve Shirt",
+      "price": "$44",
+      "link": "https://www.ccloot.com/product-page/c-c-loot-edition-1-0"
     },
     {
-      "menu_image": "/public/shop_items/sample.png",
-      "menu_description": "C_C Loot",
-      "price": "",
-      "link": ""
+      "menu_image": "/public/shop_items/INSTA_EDITION_2_2.gif",
+      "menu_description": "C_C Loot 'Edition 2.1' - Premium Sweatshirt",
+      "price": "$70",
+      "link": "https://www.ccloot.com/product-page/c-c-loot-edition-2-1"
     },
        {
       "menu_image": "/public/shop_items/sample.png",
